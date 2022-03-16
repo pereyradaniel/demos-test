@@ -93,6 +93,14 @@ h6.font-light {
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .big-heading {
+  font-size: 25px;
+  font-weight: 400;
+}}
+
+
+
 p {
   margin: 0 0 20px;
 }
@@ -758,6 +766,13 @@ hr.bold {
   position: relative;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  #intro.home-video {
+    height:100vh;
+  }
+}
+
 #intro.home-video .homevideo-container {
   height: 100%;
   width: 100%;
@@ -780,6 +795,13 @@ hr.bold {
   height: 100%;
   position: absolute;
 }
+
+@media (max-width: 768px) {
+  #intro.home-video .overlay {
+ /* display: none; */
+  }
+}
+
 
 .bs-video {
   height: 0;
